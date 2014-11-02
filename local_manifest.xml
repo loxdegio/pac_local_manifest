@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Local projects -->
+    <remove-project name="androidarmv6/android_hardware_qcom_display-legacy" />
+    <remove-project name="androidarmv6/android_hardware_qcom_media-legacy" />
+    
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+	<project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" revision="cm-11.0" />
+    
+    <!-- FM Radio -->
+    <project path="hardware/qcom/fm-mr1" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
+    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
+
+    <!-- Classic webkit -->
+    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
+</manifest>
